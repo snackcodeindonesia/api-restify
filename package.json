@@ -1,0 +1,34 @@
+{
+  "name": "api-restify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snackcodeindonesia/api-restify.git"
+  },
+  "author": "miralagustian <miralagustiansyamjobs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snackcodeindonesia/api-restify/issues"
+  },
+  "homepage": "https://github.com/snackcodeindonesia/api-restify#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/mail": "^7.0.0",
+    "amqplib": "^0.5.5",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mailgen": "^2.0.10",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2",
+    "restify": "^8.5.1",
+    "validator": "^13.0.0"
+  }
+}
